@@ -1,0 +1,17 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.adience.adboost.platform.air.Container</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>lib.jar</nativeLibrary>
+				<initializer>com.adience.adboost.platform.air.Container</initializer>
+				<finalizer>com.adience.adboost.platform.air.Container</finalizer>
+			</applicationDeployment>
+		</platform>
+
+		<platform name="default"> 
+        	<applicationDeployment/> 
+        </platform> 
+	</platforms>
+</extension>
