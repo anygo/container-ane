@@ -5,19 +5,26 @@
      Then specify their names below in packagedDependencies.
      -->
 	<packagedDependencies>
-    <!-- 
-		<packagedDependency>android-support-v4.jar</packagedDependency>
+	    <packagedDependency>android-support-v4.jar</packagedDependency>
 		<packagedDependency>google-play-services.jar</packagedDependency>
-		<packagedDependency>chartboost.jar</packagedDependency>
-		<packagedDependency>com-rfjpqmxwto-ymboaqjqbz187028.jar</packagedDependency>
-		<packagedDependency>ia-sdk-lib-5.0.2.jar</packagedDependency>
+		<!-- 
+		<packagedDependency>StartAppInApp-2.4.3.jar</packagedDependency>
+		<packagedDependency>amazon-ads-5.4.78.jar</packagedDependency>
 		<packagedDependency>InMobi-4.4.3.jar</packagedDependency>
+		<packagedDependency>chartboost.jar</packagedDependency>
+		<packagedDependency>AdBuddiz-2.3.3.jar</packagedDependency>
+	    <packagedDependency>AppiaSDK-2014-31.jar</packagedDependency>
+		<packagedDependency>com-rfjpqmxwto-ymboaqjqbz187028.jar</packagedDependency>
+		<packagedDependency>dagger-1.2.1.jar</packagedDependency>
+		<packagedDependency>ia-sdk-lib-5.0.2.jar</packagedDependency>
+		<packagedDependency>javax.inject-1.jar</packagedDependency>
 		<packagedDependency>lpwfditojo.jar</packagedDependency>
 		<packagedDependency>MdotM-Android-SDK-3.0.9.jar</packagedDependency>
 		<packagedDependency>MMSDK.jar</packagedDependency>
+		<packagedDependency>nineoldandroids-2.4.0.jar</packagedDependency>
 		<packagedDependency>revmob-6.9.6.jar</packagedDependency>
-		<packagedDependency>StartAppInApp-2.4.1.jar</packagedDependency>
- 	-->
+		<packagedDependency>vungle-publisher-3.2.0.jar</packagedDependency>
+		 -->
 	</packagedDependencies>
  	
 	<!-- If you're including Android library projects with resources -->
@@ -30,12 +37,10 @@
 	    Copy the packageName from the Android library project's AndroidManifest.xml to the packagedResource below.
 		Specify the new folderName of the 'res' folder as you named it.
 	     -->
-	    <!-- 
 		<packagedResource>
 			<packageName>com.google.android.gms</packageName>
 			<folderName>google-play-services-res</folderName>
 		</packagedResource>
-		 -->
 	</packagedResources>
 
 </platform>
