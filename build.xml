@@ -1,9 +1,9 @@
 <project name="Container" default="build.ane">
 
 	<!-- Write your Flex SDK path-->
-	<property name="FLEX_HOME" value="${eclipse.home}/plugins/com.adobe.flash.compiler_4.7.0.349722/AIRSDK"/>
+	<property name="FLEX_HOME" value="/Applications/Adobe Flash Builder 4.7/sdks/4.13.0"/>
 	
-	<!-- Copy Android SDK path from Eclipse workspace settings -->
+	<!-- Write your Android SDK path -->
 	<property file="${basedir}/../.metadata/.plugins/org.eclipse.core.runtime/.settings/com.android.ide.eclipse.adt.prefs" />
 	<property name="android.sdk.dir" value="${com.android.ide.eclipse.adt.sdk}" />
 
